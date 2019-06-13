@@ -1,0 +1,152 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div id="particles-js"></div>
+<div style="position: absolute; top: 0; left: 0; bottom: 0; right: 0; overflow: hidden">
+    <img src="/static/img/giphy.gif" class="d-none d-lg-block" style="opacity: 0.2; position: absolute; right: -400px; bottom: -400px; transform: rotate(-90deg)" width="800px" alt="">
+    <img src="/static/img/giphy.gif" style="opacity: 0.2; position: absolute; left: 0px; top: 100px; transform: rotate(90deg)" alt="">
+    <div class="container h-100">
+        <div class="row h-100 d-flex align-items-center">
+            <div class="col text-white">
+                <div class="col border-left py-4">
+                    <h1 class="light stretch display-3" style="margin: 0 0 -15px -6px;">ESYA'19</h1>
+                    <h1 class="bold stretch d-none d-md-block display-3" style="margin-bottom: -5px">TECHFUSION</h1>
+                    <h1 class="bold stretch d-block d-md-none mb-0">TECHFUSION</h1>
+                    <h4 class="light stretch ml-1">TRACING THE DISTANT</h4>
+                    <h5 class="light stretch mt-4">23<sup>rd</sup>-24<sup>th</sup>August 2019</h5>
+                    <a class="btn btn-outline-blue btn-lg mt-2 px-3 rounded-0 no-btn-shadow light stretch" data-tilt href="/register" onclick="return false;">SUBSCRIBE NOW</a>                    
+                    <!-- <a class="btn btn-outline-blue btn-lg mt-2 px-3 rounded-0 no-btn-shadow light stretch" data-tilt href="/register">REGISTER NOW</a>                     -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <span style="position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%)"><img src="/static/img/down-arrow.svg" width="30px" style="transform: rotate(90deg)" alt=""></span>
+</div>
+<div style="position: absolute; top: 100vh; width: 100%" id="aboutus">
+    
+    <div class="container mt-5 mb-0 mb-md-5">
+        <h1 class="bold mb-0 text-black pt-0 pt-md-5">ABOUT US</h1>     
+        <div class="row mt-5 justify-content-center pb-0 pb-md-5">
+            <div class="col-12 col-lg-4 p-4 py-5 bg-black order-2 order-lg-1" style="z-index: 9;">
+                <h2 class="bold stretch mb-1">ESYA</h2>                
+                <p class="light stretch text-uppercase h5 mb-4"><b>Tracing The Distant</b></p>  
+                <p class="light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eaque neque, doloremque voluptas quisquam error recusandae corporis magni saepe. Debitis ullam eos eius necessitatibus veritatis animi dolores atque sed enim.</p>              
+                <p class="light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eaque neque, doloremque voluptas quisquam error recusandae corporis magni saepe. Debitis ullam eos eius necessitatibus veritatis animi dolores atque sed enim.</p>              
+            </div>
+            <div class="col-12 col-lg-6 px-0 d-flex align-items-center text-black order-1 order-lg-2" style="position: relative;" data-toggle="modal" data-target=".video-modal-lg">
+                <img src="/static/img/Untitled.png" style="cursor: pointer" width="100%" class="imageForVideo" alt="s">
+                <span class="video-side-text light stretch">ESYA'18 TEASER</span>
+            </div>
+        </div>
+    </div>    
+
+    <div class="bg-black" style="margin-top: -1px;">
+        <div class="container mt-0 mt-md-5 py-0 pb-4 py-md-5" style="position: relative;">
+            <h1 class="bold mb-0 text-white text-left d-block d-lg-none">EVENTS</h1>  
+            <h1 class="bold mb-0 text-white text-left d-none d-lg-block" style="position: absolute; left: -100px; top: 50%; transform: rotate(-90deg) translateY(-50%)">EVENTS</h1>  
+            <p class="light mt-2 mb-0 mt-md-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt accusamus iusto perferendis similique facere laboriosam dicta, exercitationem assumenda optio eius minus? Eligendi vel omnis perferendis. Animi eveniet earum amet iusto!</p>
+            <div class="row mt-4 mt-md-5 mb-4">
+                <div class="col-6 col-lg-3 light">
+                    <a href="#"><img src="/static/img/placeholder.png" class="w-100" alt=""></a> 
+                </div>
+                <div class="col-6 col-lg-3 light">
+                    <a href="#"><img src="/static/img/placeholder.png" class="w-100" alt=""></a> 
+                </div>
+                <div class="col-6 col-lg-3 light">
+                    <a href="#"><img src="/static/img/placeholder.png" class="w-100 mt-4 mt-lg-0" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-3 light">
+                    <a href="#"><img src="/static/img/placeholder.png" class="w-100 mt-4 mt-lg-0" alt=""></a>
+                </div>
+            </div>
+        </div>  
+        <div class="container py-0 pb-4 pb-md-5" style="position: relative;">
+            <h1 class="bold mb-0 text-white text-right d-block d-lg-none">Talks</h1>  
+            <h1 class="bold mb-0 text-white text-left d-none d-lg-block" style="position: absolute; right: -70px; top: 50%; transform: rotate(90deg) translateY(-50%)">Talks</h1>  
+            <p class="light mt-2 mt-md-4 mb-0 text-right">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt accusamus iusto perferendis similique facere laboriosam dicta, exercitationem assumenda optio eius minus? Eligendi vel omnis perferendis. Animi eveniet earum amet iusto!</p>
+            <div class="row mt-4 mt-md-5 mb-4">
+                <div class="col-6 col-lg-3 light">
+                    <a href="#"><img src="/static/img/placeholder.png" class="w-100" alt=""></a> 
+                </div>
+                <div class="col-6 col-lg-3 light">
+                    <a href="#"><img src="/static/img/placeholder.png" class="w-100" alt=""></a> 
+                </div>
+                <div class="col-6 col-lg-3 light">
+                    <a href="#"><img src="/static/img/placeholder.png" class="w-100 mt-4 mt-lg-0" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-3 light">
+                    <a href="#"><img src="/static/img/placeholder.png" class="w-100 mt-4 mt-lg-0" alt=""></a>
+                </div>
+            </div>
+        </div>  
+        <div class="container py-0 pb-4 pb-md-5" style="position: relative;">
+            <h1 class="bold mb-0 text-white text-left d-block d-lg-none">Workshops</h1>  
+            <h1 class="bold mb-0 text-white text-left d-none d-lg-block" style="position: absolute; left: -130px; top: 50%; transform: rotate(-90deg) translateY(-50%)">Workshops</h1>  
+            <p class="light mt-2 mt-md-4 mb-0 text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt accusamus iusto perferendis similique facere laboriosam dicta, exercitationem assumenda optio eius minus? Eligendi vel omnis perferendis. Animi eveniet earum amet iusto!</p>
+            <div class="row mt-4 mt-md-5 mb-4">
+                <div class="col-6 col-lg-3 light">
+                    <a href="#"><img src="/static/img/placeholder.png" class="w-100" alt=""></a> 
+                </div>
+                <div class="col-6 col-lg-3 light">
+                    <a href="#"><img src="/static/img/placeholder.png" class="w-100" alt=""></a> 
+                </div>
+                <div class="col-6 col-lg-3 light">
+                    <a href="#"><img src="/static/img/placeholder.png" class="w-100 mt-4 mt-lg-0" alt=""></a>
+                </div>
+                <div class="col-6 col-lg-3 light">
+                    <a href="#"><img src="/static/img/placeholder.png" class="w-100 mt-4 mt-lg-0" alt=""></a>
+                </div>
+            </div>
+        </div>    
+    </div>
+
+    <div class="container my-4 my-lg-5" id="statistics" scrollTop>
+        <h1 class="bold mb-0 text-black pt-3 text-center text-lg-left">STATISTICS</h1>     
+        <div class="row">
+            <div class="col-12 col-lg-6 pt-3 pt-lg-2 order-2 order-lg-1 light mb-4 mb-lg-0">
+                <b>Thanks to youasfhalsfk Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qu</b>
+                br am dolore adipisci, facilis aut quae, commodi possimus quasi eaque ab fugit, accusantium excepturi incidunt? Consequatur corrupti nesciunt reiciendis commodi consequuntur aliquam.
+            </div>
+            <div class="col-12 col-lg-6 pt-3 pt-lg-2 text-center order-1 order-lg-2 d-flex align-items-center justify-content-center">
+                <img src="/static/img/thanks.svg" class="w-75" alt="">
+            </div>
+        </div>
+    </div>
+    {% include 'footer.html' %}
+</div>
+
+<div class="modal fade video-modal-lg" id="videoModal">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>        
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="" id="video" allowfullscreen allowscriptaccess="always" allow="autoplay"></iframe>
+                </div>             
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="/static/js/particles.js"></script>
+<script type="text/javascript">
+    $(document).ready(function() {
+
+        particlesJS.load('particles-js', '/static/js/particles-config.json');
+
+        var videoSrc = "https://www.youtube.com/embed/WQZG6ZVp4vs";
+        $('#videoModal').on('shown.bs.modal', function (e) {
+            $("#video").attr('src',videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
+        });
+        
+        $('#videoModal').on('hide.bs.modal', function (e) {
+            $("#video").attr('src',videoSrc); 
+        });
+
+    });
+</script>
+{% endblock %}
