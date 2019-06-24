@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div class="container text-center d-flex flex-column align-items-center justify-content-center" id="contentId">
+        <img src="/static/img/404.svg" class="py-5 animated zoomIn fast delay" style="margin-top: 76.4px" width="70%" alt="">
+        <p class="h5 light stretch text-black pb-5 animated fadeInUp faster delay-1s"><b>Oops!</b> Looks like you are lost go back to <a href="/" class="text-dark text-black no-decoration border-bottom border-dark">Home</a>?</p>
+    </div>
+
+    {% include 'footer.html' %}
+
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript">
+    $(document).ready(function() {
+        var offset = parseInt($("#footerId").css('height').replace('px', ''));
+        var height = $(window).height() - offset;
+        $("#contentId").css('min-height', height + "px");
+    });
+</script>
+{% endblock %}

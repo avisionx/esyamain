@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div class="bg-black light pt-4 pt-lg-5 pb-2 text-light" style="margin-top: 76.3px; margin-bottom: -1px">
+        <div class="container">
+            <h1 class="bold text-center display-4 animated fadeIn slow"><b>Blogs</b></h1>
+            <div class="row mt-4 mt-lg-4" style="overflow: hidden">
+                {% for blog in blogs %}
+                <div class="col-12 col-md-4 my-3 my-md-4 animated fadeInUp faster delay-{{blog.id}}">
+                    <a class="card rounded-0 shadow-sm text-black p-3" href="/blog/{{blog.id}}" style="text-decoration: none; color: black !important">
+                        <div class="card-body p-0 rounded-0">
+                            <img src="/static/img/blog/{{blog.id}}.jpg" class="card-img-top rounded-0">
+                            <h5 class="card-title font-weight-bold text-dark pt-3 mb-1">{{blog.title}}</h5><p class="card-title text-secondary small mb-1 font-weight-light" style="font-size: 10px"><i class="fas fa-calendar-day"></i> {{blog.date}}</p>
+                            <p class="mb-3">{{blog.smallText | safe}}</p>
+                            <p class="small mb-0 text-center" style="color: #0649E3">Continue Reading</p>
+                        </div>
+                    </a>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    {% include 'footer.html' %}
+
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript">
+
+</script>
+{% endblock %}

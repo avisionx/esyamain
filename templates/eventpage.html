@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div class="bg-black light pt-3 pt-lg-5 pb-2 text-light" style="margin-top: 76.3px; margin-bottom: -1px">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 pb-2 d-lg-none">
+                    <ol class="breadcrumb p-0 small mb-0 bg-black">
+                        <li class="breadcrumb-item "><a class="text-blue no-decoration" href="/">Home</a></li>
+                        <li class="breadcrumb-item "><a class="text-blue no-decoration" href="{{eventTypeLink}}">Events</a></li>
+                        <li class="breadcrumb-item active">{{event.name}}</li>
+                    </ol>
+                </div>
+                <div class="col-12 col-lg-7 order-2 order-lg-1">
+                    <ol class="breadcrumb p-0 small mb-0 d-none d-lg-flex bg-black">
+                        <li class="breadcrumb-item "><a class="text-blue no-decoration" href="/">Home</a></li>
+                        <li class="breadcrumb-item "><a class="text-blue no-decoration" href="{{eventTypeLink}}">Events</a></li>
+                        <li class="breadcrumb-item active">{{event.name}}</li>
+                    </ol>
+                    <h4 class="font-weight-bold mb-1 mt-4">{{event.name}}</h4>	
+                    <p class="small text-secondary font-weight-light mt-3 mb-0">Date: {{event.date}} </p>
+                    <p class="small text-secondary font-weight-light mb-0">Time: {{event.time}} </p>
+                    <p class="small text-secondary font-weight-light mb-0">Venue: {{event.venue}}</p>
+                    <p class="small text-secondary font-weight-light mb-0">Prize: {{event.prize}}</p>
+                    <p class="small text-secondary font-weight-light mb-3">Team Size: {{event.team}}</p>
+                    <hr class="mt-5 w-50 d-none d-md-block bg-secondary" style="opacity: 0.2">
+                </div>
+                <div class="col-12 col-lg-5 order-1 order-lg-2">
+                    <img src="/static/img/events{{event.img}}" class="w-100 card rounded-0">
+                </div>
+                <div class="col-12 order-3 mt-2 mt-lg-4">
+                    <p class="pt-3">{{event.description | safe}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include 'footer.html' %}
+
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript">
+    
+</script>
+{% endblock %}

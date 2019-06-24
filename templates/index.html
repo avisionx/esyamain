@@ -14,7 +14,7 @@
                     <h1 class="bold stretch d-block d-md-none mb-0">TECHFUSION</h1>
                     <h4 class="light stretch ml-1">TRACING THE DISTANT</h4>
                     <h5 class="light stretch mt-4">23<sup>rd</sup>-24<sup>th</sup>August 2019</h5>
-                    <a class="btn btn-outline-blue btn-lg mt-2 px-3 rounded-0 no-btn-shadow light stretch" data-tilt href="/register" onclick="return false;">SUBSCRIBE NOW</a>                    
+                    <a class="btn btn-outline-blue btn-lg mt-2 px-3 rounded-0 no-btn-shadow light stretch" data-tilt href="/register" data-toggle="modal" data-target=".sub-modal-lg" onclick="return false;">SUBSCRIBE NOW</a>                    
                     <!-- <a class="btn btn-outline-blue btn-lg mt-2 px-3 rounded-0 no-btn-shadow light stretch" data-tilt href="/register">REGISTER NOW</a>                     -->
                 </div>
             </div>
@@ -26,75 +26,66 @@
     
     <div class="container mt-5 mb-0 mb-md-5">
         <h1 class="bold mb-0 text-black pt-0 pt-md-5">ABOUT US</h1>     
-        <div class="row mt-5 justify-content-center pb-0 pb-md-5">
-            <div class="col-12 col-lg-4 p-4 py-5 bg-black order-2 order-lg-1" style="z-index: 9;">
+        <div class="row mt-5 justify-content-center pb-0 pb-md-5" style="overflow-x: hidden">
+            <div class="col-12 col-lg-4 p-4 py-5 bg-black order-2 order-lg-1" id="aboutLeftCard" style="z-index: 9;">
                 <h2 class="bold stretch mb-1">ESYA</h2>                
-                <p class="light stretch text-uppercase h5 mb-4"><b>Tracing The Distant</b></p>  
-                <p class="light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eaque neque, doloremque voluptas quisquam error recusandae corporis magni saepe. Debitis ullam eos eius necessitatibus veritatis animi dolores atque sed enim.</p>              
-                <p class="light">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima eaque neque, doloremque voluptas quisquam error recusandae corporis magni saepe. Debitis ullam eos eius necessitatibus veritatis animi dolores atque sed enim.</p>              
+                <p class="light stretch text-uppercase h5 mb-3"><b>Tracing The Distant</b></p>  
+                <p class="light  small">ESYA, IIIT Delhi’s annual tech fest is the epitome of celebrating all things tech and beyond. Celebrating the coder, the reader, the learner, the leader. ESYA provides them a platform to showcase their ideas and build upon them; to morph their unrelenting imagination into a reality. After 8 successful editions Esya is back to challenge minds and transcend the norm. The nouveau 9th edition of Esya comes power packed with a tantalising fusion of never before seen events along with the classic headliners.</p>              
+                <p class="light small">This two day technical fest of IIIT Delhi showcases a plethora of events ranging from coding competitions to overnight hackathons, from powerful debates to robots at war. The new edition of ESYA, “Techfusion - Tracing the Distant” is bigger, bolder and better than ever before. Come join us in our pursuit of infinity and beyond.</p>              
             </div>
-            <div class="col-12 col-lg-6 px-0 d-flex align-items-center text-black order-1 order-lg-2" style="position: relative;" data-toggle="modal" data-target=".video-modal-lg">
-                <img src="/static/img/Untitled.png" style="cursor: pointer" width="100%" class="imageForVideo" alt="s">
-                <span class="video-side-text light stretch">ESYA'18 TEASER</span>
+            <div class="col-12 col-lg-6 px-0 d-flex align-items-center text-black order-1 order-lg-2" id="aboutRightCard" style="position: relative;" data-toggle="modal" data-target=".video-modal-lg">
+                <img src="/static/img/yt-placeholder.png" style="cursor: pointer" width="100%" class="imageForVideo" alt="s">
+                <span class="video-side-text light stretch">ESYA'19 TEASER</span>
             </div>
         </div>
     </div>    
 
     <div class="bg-black" style="margin-top: -1px;">
         <div class="container mt-0 mt-md-5 py-0 pb-4 py-md-5" style="position: relative;">
-            <h1 class="bold mb-0 text-white text-left d-block d-lg-none">EVENTS</h1>  
-            <h1 class="bold mb-0 text-white text-left d-none d-lg-block" style="position: absolute; left: -100px; top: 50%; transform: rotate(-90deg) translateY(-50%)">EVENTS</h1>  
-            <p class="light mt-2 mb-0 mt-md-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt accusamus iusto perferendis similique facere laboriosam dicta, exercitationem assumenda optio eius minus? Eligendi vel omnis perferendis. Animi eveniet earum amet iusto!</p>
+            <h1 class="bold mb-0 text-white text-left d-block d-lg-none" id="eventHeadS">EVENTS</h1>  
+            <h1 class="bold mb-0 text-white text-left d-none d-lg-block" style="position: absolute; left: -100px; top: 50%; transform: rotate(-90deg) translateY(-50%)" id="eventHead">EVENTS</h1>
+            <div style="overflow-x: hidden">
+                <p class="light mt-2 mb-0 mt-md-4" id="eventText">Tackle the best of the best in the field of your preference. Face off against other contestants, take on challenges, exhibit and expand your skills. Take home big prizes and the title of an ESYA Victor.</p>
+            </div>
             <div class="row mt-4 mt-md-5 mb-4">
                 <div class="col-6 col-lg-3 light">
-                    <a href="#"><img src="/static/img/placeholder.png" class="w-100" alt=""></a> 
+                    <a href="/events#hackathons"><img src="/static/img/banner/hackathon.png" data-tilt data-tilt-scale="1.1" class="w-100" alt=""></a> 
                 </div>
                 <div class="col-6 col-lg-3 light">
-                    <a href="#"><img src="/static/img/placeholder.png" class="w-100" alt=""></a> 
+                    <a href="/events#cse"><img src="/static/img/banner/cse.png" data-tilt data-tilt-scale="1.1" class="w-100" alt=""></a> 
                 </div>
                 <div class="col-6 col-lg-3 light">
-                    <a href="#"><img src="/static/img/placeholder.png" class="w-100 mt-4 mt-lg-0" alt=""></a>
+                    <a href="/events#ece"><img src="/static/img/banner/ece.png" data-tilt data-tilt-scale="1.1" class="w-100 mt-4 mt-lg-0" alt=""></a>
                 </div>
                 <div class="col-6 col-lg-3 light">
-                    <a href="#"><img src="/static/img/placeholder.png" class="w-100 mt-4 mt-lg-0" alt=""></a>
+                    <a href="/events#nontech"><img src="/static/img/banner/nontech.png" data-tilt data-tilt-scale="1.1" class="w-100 mt-4 mt-lg-0" alt=""></a>
                 </div>
             </div>
         </div>  
         <div class="container py-0 pb-4 pb-md-5" style="position: relative;">
-            <h1 class="bold mb-0 text-white text-right d-block d-lg-none">Talks</h1>  
-            <h1 class="bold mb-0 text-white text-left d-none d-lg-block" style="position: absolute; right: -70px; top: 50%; transform: rotate(90deg) translateY(-50%)">Talks</h1>  
-            <p class="light mt-2 mt-md-4 mb-0 text-right">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt accusamus iusto perferendis similique facere laboriosam dicta, exercitationem assumenda optio eius minus? Eligendi vel omnis perferendis. Animi eveniet earum amet iusto!</p>
+            <h1 class="bold mb-0 text-white text-right d-block d-lg-none" id="talkHeadS">Talks</h1>  
+            <h1 class="bold mb-0 text-white text-left d-none d-lg-block" id="talkHead" style="position: absolute; right: -70px; top: 50%; transform: rotate(90deg) translateY(-50%)">Talks</h1>  
+            <div style="overflow-x: hidden">
+                <p class="light mt-2 mt-md-4 mb-0 text-right" id="talkText">Broaden the horizons of your perception and venture forth into diverse domains. Attend the theory talks at ESYA and get a head start into your next intellectual endeavour. </p>
+            </div>
             <div class="row mt-4 mt-md-5 mb-4">
-                <div class="col-6 col-lg-3 light">
-                    <a href="#"><img src="/static/img/placeholder.png" class="w-100" alt=""></a> 
-                </div>
-                <div class="col-6 col-lg-3 light">
-                    <a href="#"><img src="/static/img/placeholder.png" class="w-100" alt=""></a> 
-                </div>
-                <div class="col-6 col-lg-3 light">
-                    <a href="#"><img src="/static/img/placeholder.png" class="w-100 mt-4 mt-lg-0" alt=""></a>
-                </div>
-                <div class="col-6 col-lg-3 light">
-                    <a href="#"><img src="/static/img/placeholder.png" class="w-100 mt-4 mt-lg-0" alt=""></a>
+                <div class="offset-lg-3 col-12 col-lg-6 light">
+                    <a><img src="/static/img/comingsoon.png" id="comingsoon1" class="w-100" alt=""></a> 
                 </div>
             </div>
         </div>  
         <div class="container py-0 pb-4 pb-md-5" style="position: relative;">
-            <h1 class="bold mb-0 text-white text-left d-block d-lg-none">Workshops</h1>  
-            <h1 class="bold mb-0 text-white text-left d-none d-lg-block" style="position: absolute; left: -130px; top: 50%; transform: rotate(-90deg) translateY(-50%)">Workshops</h1>  
-            <p class="light mt-2 mt-md-4 mb-0 text-left">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt accusamus iusto perferendis similique facere laboriosam dicta, exercitationem assumenda optio eius minus? Eligendi vel omnis perferendis. Animi eveniet earum amet iusto!</p>
+            <h1 class="bold mb-0 text-white text-left d-block d-lg-none" id="workshopHeadS">Workshops</h1>  
+            <h1 class="bold mb-0 text-white text-left d-none d-lg-block" id="workshopHead" style="position: absolute; left: -130px; top: 50%; transform: rotate(-90deg) translateY(-50%)">Workshops</h1>  
+            <div style="overflow-x: hidden">
+                <p class="light mt-2 mt-md-4 mb-0 text-left" id="workshopText">Why let creativity be curbed by the limitations of the mind? Try a hands on approach at ESYA’s Workshops to dabble in disciplines, truly explore and master.</p>
+            </div>
             <div class="row mt-4 mt-md-5 mb-4">
-                <div class="col-6 col-lg-3 light">
-                    <a href="#"><img src="/static/img/placeholder.png" class="w-100" alt=""></a> 
-                </div>
-                <div class="col-6 col-lg-3 light">
-                    <a href="#"><img src="/static/img/placeholder.png" class="w-100" alt=""></a> 
-                </div>
-                <div class="col-6 col-lg-3 light">
-                    <a href="#"><img src="/static/img/placeholder.png" class="w-100 mt-4 mt-lg-0" alt=""></a>
-                </div>
-                <div class="col-6 col-lg-3 light">
-                    <a href="#"><img src="/static/img/placeholder.png" class="w-100 mt-4 mt-lg-0" alt=""></a>
+                <!-- <div class="col- col-lg-3 light">
+                    <a href="#" onclick="return false;"><img src="/static/img/comingsoon.png" class="w-100" alt=""></a> 
+                </div> -->
+                <div class="offset-lg-3 col-12 col-lg-6 light">
+                    <a><img src="/static/img/comingsoon.png" id="comingsoon2" class="w-100" alt=""></a> 
                 </div>
             </div>
         </div>    
@@ -104,11 +95,23 @@
         <h1 class="bold mb-0 text-black pt-3 text-center text-lg-left">STATISTICS</h1>     
         <div class="row">
             <div class="col-12 col-lg-6 pt-3 pt-lg-2 order-2 order-lg-1 light mb-4 mb-lg-0">
-                <b>Thanks to youasfhalsfk Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qu</b>
-                br am dolore adipisci, facilis aut quae, commodi possimus quasi eaque ab fugit, accusantium excepturi incidunt? Consequatur corrupti nesciunt reiciendis commodi consequuntur aliquam.
+                <p><b>Thanks to you!</b> ESYA has been a great success over the past few years, this year is not an exception!</p>
+                <p class="my-1"><b>Online Media Coverage: </b>60 Lakhs+</p>
+                <p class="my-1"><b>Online Registraions: </b>20K+</p>
+                <p class="my-1"><b>Campus Footfall: </b>10K+</p>
+                <p class="my-1"><b>School and Colleges: </b>550+</p>
+                <p class="my-1"><b>Events: </b>47</p>
+                <p class="my-1"><b>Workshops: </b>8</p>
+                <p class="my-1"><b>Hackathons: </b>2</p>
+                <p class="mb-2 mt-5 bold "><b>PAST YEARS</b></p>
+                <div style="-webkit-mask-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0,0,0,1)), to(rgba(0,0,0,0.7)));">
+                    <p class="mt-0 mb-0"><b class="mr-2">2018: </b>50lakhs+ media coverage with 20K+ registerations.</p>
+                    <p class="my-1"><b class="mr-2">2017: </b>40lakhs+ media coverage with 8K+ campus footfall.</p>
+                    <p class="my-1"><b class="mr-2">2016: </b>40lakhs+ media coverage with 800+ schools and colleges.</p>
+                </div>
             </div>
             <div class="col-12 col-lg-6 pt-3 pt-lg-2 text-center order-1 order-lg-2 d-flex align-items-center justify-content-center">
-                <img src="/static/img/thanks.svg" class="w-75" alt="">
+                <img src="/static/img/thanks.svg" id="thankImg" class="w-75" alt="">
             </div>
         </div>
     </div>
@@ -119,7 +122,7 @@
     <div class="modal-dialog modal-lg modal-dialog-centered">
         <div class="modal-content">
             <div class="modal-body">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <button type="button" class="close no-btn-shadow" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>        
                 <div class="embed-responsive embed-responsive-16by9">
@@ -138,7 +141,7 @@
 
         particlesJS.load('particles-js', '/static/js/particles-config.json');
 
-        var videoSrc = "https://www.youtube.com/embed/WQZG6ZVp4vs";
+        var videoSrc = "https://www.youtube.com/embed/8Rd6wqHjcvM";
         $('#videoModal').on('shown.bs.modal', function (e) {
             $("#video").attr('src',videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" ); 
         });
@@ -147,6 +150,60 @@
             $("#video").attr('src',videoSrc); 
         });
 
+
+        $.fn.isInViewport = function() {
+            var elementTop = $(this).offset().top;
+            var elementBottom = elementTop + $(this).outerHeight();
+
+            var viewportTop = $(window).scrollTop();
+            var viewportBottom = viewportTop + $(window).height();
+
+            return elementBottom > viewportTop && elementTop < viewportBottom;
+        };
+
+        
+        $(window).on('resize scroll', function() {
+            if($(window).width() > 991.98) {
+                if ($('#aboutLeftCard').isInViewport()) {
+                    var element1 =  document.querySelector('#aboutLeftCard');
+                    element1.classList.add('animated', 'fadeInDown', 'fast', 'delay');
+                    var element2 =  document.querySelector('#aboutRightCard');
+                    element2.classList.add('animated', 'fadeInRight', 'fast', 'delay');
+                }
+            }
+            if ($('#eventText').isInViewport()) {
+                var element1 =  document.querySelector('#eventText');
+                element1.classList.add('animated', 'fadeInLeft', 'faster', 'delays');
+                var element2 =  document.querySelector('#eventHead');
+                element2.classList.add('animated', 'fadeIn', 'slow', 'delay');
+                var element2 =  document.querySelector('#eventHeadS');
+                element2.classList.add('animated', 'fadeIn', 'slow', 'delay');
+            }
+            if ($('#talkText').isInViewport()) {
+                var element1 =  document.querySelector('#talkText');
+                element1.classList.add('animated', 'fadeInRight', 'faster', 'delays');
+                var element2 =  document.querySelector('#talkHead');
+                element2.classList.add('animated', 'fadeIn', 'slow', 'delay');
+                var element2 =  document.querySelector('#talkHeadS');
+                element2.classList.add('animated', 'fadeIn', 'slow', 'delay');
+                var element1 =  document.querySelector('#comingsoon1');
+                element1.classList.add('animated', 'zoomIn', 'faster', 'delay-1s');
+            }
+            if ($('#workshopText').isInViewport()) {
+                var element1 =  document.querySelector('#workshopText');
+                element1.classList.add('animated', 'fadeInLeft', 'faster', 'delays');
+                var element2 =  document.querySelector('#workshopHead');
+                element2.classList.add('animated', 'fadeIn', 'slow', 'delay');
+                var element2 =  document.querySelector('#workshopHeadS');
+                element2.classList.add('animated', 'fadeIn', 'slow', 'delay');
+                var element1 =  document.querySelector('#comingsoon2');
+                element1.classList.add('animated', 'zoomIn', 'faster', 'delay-1s');
+            }
+            if ($('#thankImg').isInViewport()) {
+                var element1 =  document.querySelector('#thankImg');
+                element1.classList.add('animated', 'zoomIn', 'faster', 'delays');
+            }
+        });
     });
 </script>
 {% endblock %}
