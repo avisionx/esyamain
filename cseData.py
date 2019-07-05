@@ -37,7 +37,12 @@ cseJson = [{
         'venue': "TBA",
         'prize': "TBA",
         'team': "TBA",
-        'description': "The aim of the event is to test the adaptive strength of a person toward new things using some ‘lesser known’ programming languages. The details of the required languages will be given on the spot. The main theme of the event is ‘learn while having fun’ and we certainly hope the participants are able to gain something from to it."
+        'description': "The aim of the event is to test the adaptive strength of a person toward new things using some ‘lesser known’ programming languages. The details of the required languages will be given on the spot. The main theme of the event is ‘learn while having fun’ and we certainly hope the participants are able to gain something from to it.",
+        'sponsors': [{
+                'img': "sticker-mule.png",
+                'link': "https://www.stickermule.com/supports/darwingames19"
+            }
+        ]
     }, {
         'id': 5,
         'name': 'HackCon',
