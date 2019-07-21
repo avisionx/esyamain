@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div class="bg-black light pt-4 pt-lg-5 pb-2 text-light" style="margin-top: 76.3px; margin-bottom: -1px;">
+        <div class="container">
+            <h1 class="bold text-center display-4 animated fadeIn slow mb-3 mb-lg-4"><b>Register</b></h1>
+            <div class="row text-center remove-scroll mb-1 mb-lg-3" style="overflow-x: auto; flex-wrap: nowrap; overflow-y: hidden;">
+                <div class="col d-none d-lg-flex"></div>
+                <div class="col-auto"><a id="hackathons-tab" onclick="showPane(this, event)" href="#hackathons" class="btn no-btn-shadow btn-outline-light mx-0 mx-lg-4 stretch rounded-0">HACKATHONS</a></div>
+                <div class="col-auto"><a id="cse-tab" onclick="showPane(this, event)" href="#cse" class="btn no-btn-shadow btn-outline-light mx-0 mx-lg-4 stretch rounded-0">CODING</a></div>
+                <div class="col-auto"><a id="ece-tab" onclick="showPane(this, event)" href="#ece" class="btn no-btn-shadow btn-outline-light mx-0 mx-lg-4 stretch rounded-0">ELECTRONICS</a></div>
+                <div class="col-auto"><a id="nontech-tab" onclick="showPane(this, event)" href="#nontech" class="btn no-btn-shadow btn-outline-light mx-0 mx-lg-4 stretch rounded-0 text-uppercase">Fun and Literary</a></div>
+                <div class="col d-none d-lg-flex"></div>
+            </div>
+            <div class="tab-content my-2">
+                <div class="tab-pane fade show active" id="base-panel">
+                    <div class="text-center small align-items-center d-flex justify-content-center" style="min-height: 220px;">
+                        <img src="/static/img/link-arrow.svg" style="transform: rotate(180deg)" class="mr-2" width="20px" alt="">Scroll through above categories<img src="/static/img/link-arrow.svg" class="ml-2" width="20px" alt="">
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="hackathons-panel">
+                    <div class="row mt-4 mt-lg-4" id="hackathons-panel-row" style="overflow: hidden"></div>
+                </div>
+                <div class="tab-pane fade" id="cse-panel">
+                    <div class="row mt-4 mt-lg-4" id="cse-panel-row" style="overflow: hidden"></div>                    
+                </div>
+                <div class="tab-pane fade" id="ece-panel">
+                    <div class="row mt-4 mt-lg-4" id="ece-panel-row" style="overflow: hidden"></div>
+                </div>
+                <div class="tab-pane fade" id="nontech-panel">
+                    <div class="row mt-4 mt-lg-4" id="nontech-panel-row" style="overflow: hidden"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include 'footer.html' %}
+
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript">
+
+    var eventData = {
+        hackathons: null,
+        cse: null,
+        ece: null,
+        nontech: null,
+    }
+
+    $(document).ready(function() {
+        
+        var tabUrl = window.location.href.split("#")[1];
+        if(tabUrl !== undefined) {
+            $("#" + tabUrl + "-tab").click();
+        }
+        
+    });
+
+    function populateEventPanel(data, panelId) {
+        for(var i = 0; i < data.length; i++) {
+            var eventData = data[i];
+            if(eventData.regLink != "TBA") {
+                var ele = '<div class="col-12 col-md-4 my-3 my-md-4"><a class="card rounded-0 border-0 shadow-sm text-black" target="_blank" href="' + eventData.regLink + '" style="text-decoration: none; color: black !important"><img src="/static/img/events' + eventData.img + '" class="card-img-top rounded-0"><h5 class="light stretch text-black mb-0 text-uppercase py-2 text-center" style="font-size: 14px">' + eventData.name + '</h5></a></div>';
+                $("#" + panelId + "-row").append(ele);
+            }
+        }
+    }
+
+    function showEventData(eventName) {
+
+        if(eventData[eventName] === null) {
+            $.ajax({
+                method: 'GET',
+                url: "/api/event/" + eventName,
+                success: function(result) {
+                    eventData[eventName] = result;
+                    populateEventPanel(result, eventName + "-panel");
+                }
+            });
+        }
+
+    }
+
+    function showPane(element, event) {
+        
+        var curPaneId = $(".active")[0].id;
+        var newPaneId = element.id.split("-")[0];
+        var curTabId = curPaneId.split("-")[0]
+
+        if(curTabId !== newPaneId) {
+            if(curTabId !== "base") {
+                $("#" + curTabId +"-tab").removeClass("active-tab");
+            }
+            $("#" + newPaneId +"-tab").addClass("active-tab");
+            $("#" + curPaneId).removeClass("show");
+            $("#" + curPaneId).removeClass("active");
+            $("#" + newPaneId + "-panel").addClass("show");
+            $("#" + newPaneId + "-panel").addClass("active");
+            showEventData(newPaneId);
+        }
+
+    }
+
+</script>
+{% endblock %}

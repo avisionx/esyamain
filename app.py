@@ -33,6 +33,10 @@ def blog(idB):
 def events():
     return render_template('events.html')
 
+@app.route("/register/")
+def register():
+    return render_template('register.html')
+
 @app.route("/event/hackathons/<int:idE>")
 def hackathonEvent(idE):
     idAvailable = []
