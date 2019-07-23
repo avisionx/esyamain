@@ -157,6 +157,17 @@ cseJson = [{
         'team': "TBA",
         'regLink': "http://bit.ly/zptesya19",
         'description': "The Zero Pre-requisite Tournament is a mathematics problem-solving event where participants have to solve questions based on a topic they have been given on the spot. The main idea behind the ZPT is that the participants need no prior knowledge of the topic at hand - in fact, the less they know, the better, as a fresh mind with no preconceptions makes understanding the material more seamless. Everyone stands as equals."
-    } 
+    }, {
+        'id': 15,
+        'name': 'ProSort Women',
+        'img': '/cse/prosortwomen.png',
+        'date': "TBA",
+        'time': "TBA",
+        'venue': "TBA",
+        'prize': "TBA",
+        'team': "Individual",
+        'regLink': "http://bit.ly/ProsortWomen",
+        'description': '"Debugging the gender gap" <br><br> For the first time ESYA brings to you ProSort Women, a 2-hour onsite programming contest specially to encourage women interested in Competitive Programming.<br><br>ProSort Women is the onsite programming contest organised by IIIT-D\'s programming club Foobar for Esya \'19. ProSort Women is an event in which the brightest women across the nation compete against each other to solve algorithmic problems.'
+    }
 ]
 
