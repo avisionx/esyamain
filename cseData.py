@@ -56,7 +56,7 @@ cseJson = [{
         'venue': "TBA",
         'prize': "TBA",
         'team': "TBA",
-        'regLink': "http://bit.ly/Hackcon-registrations",
+        'regLink': "https://hackcon.online/",
         'description': "HackCon is a one day Capture The Flag contest conducted online where teams from across the world will participate and try to solve questions based on cryptography, reverse engineering, binary exploits, steganography, and web vulnerabilities. Each question will have points assigned to them based on difficulty. Grab the most points to win!"
     }, {
         'id': 6,

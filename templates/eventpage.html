@@ -33,6 +33,18 @@
                     
                     <h4 class="font-weight-bold mb-1 mt-4">Description</h4>	
                     <p class="pt-0">{{event.description | safe}}</p>
+
+                    
+                    {% if event.rules %}
+                    <h4 class="font-weight-bold mb-1 mt-4 mt-lg-5">Rules</h4>	
+                        <div class="row mt-3">
+                            <div class="col">
+                            {% for rule in event.rules %}
+                                <p>{{rule}}</p>
+                            {% endfor %}     
+                            </div>
+                        </div>           
+                    {% endif %}
                     
                     {% if event.regLink != "TBA" %}
                     <a class="btn btn-outline-blue btn-sm mt-4 px-3 rounded-0 no-btn-shadow light stretch" data-tilt target="_blank" href={{event.regLink}}>Register for Event</a>                                        
