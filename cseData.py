@@ -67,7 +67,7 @@ cseJson = [{
         'venue': "TBA",
         'prize': "TBA",
         'team': "TBA",
-        'regLink': "TBA",
+        'regLink': "http://bit.ly/ProCon19",
         'description': "Here's where the Battle of Code is won and lost<br>Here's where real heroes are made<br>ProCon at Esya 2019 is back again<br>Here's where the maestros ply their trade"
     }, {
         'id': 7,
@@ -89,7 +89,7 @@ cseJson = [{
         'venue': "TBA",
         'prize': "TBA",
         'team': "1-3 Members",
-        'regLink': "TBA",
+        'regLink': "http://bit.ly/EsyaEuler",
         'description': "The event Project euler invites maths and computer science enthusiasts to participate in “The Euler’s Islands” - a fusion of Project Euler questions and Forbidden Island(Board Game).<br><br>Find effective solutions of some interesting problems and win the game. The Game is setup on the islands. The islands will be based on math concepts that appear frequently in project Euler problems, say prime island for prime no. based questions.<br><br>To attempt the maximum no. of question from a certain island the team of 1 to 3 people will have to make decisions that ensures that the island does not sink. Team with max points wins. For a particular team questions end either when the time is up or when all islands sink.<br><br>The problems difficulty level increases gradually so teams have to use Maths and Computer Science skills together to trace the distance."
     }, {
         'id': 9,
