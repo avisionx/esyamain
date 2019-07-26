@@ -4,6 +4,7 @@ from hackData import hackJson
 from cseData import cseJson
 from eceData import eceJson
 from nontechData import nontechJson
+from workshopData import workshopJson
 
 app = Flask(__name__)
 
@@ -32,6 +33,20 @@ def blog(idB):
 @app.route("/events/")
 def events():
     return render_template('events.html')
+
+@app.route("/workshops/")
+def workshops():
+    return render_template('workshops.html', workshops=workshopJson)
+
+
+@app.route("/workshop/<int:idE>")
+def workshop(idE):
+    idAvailable = []
+    for i in range(len(workshopJson)):
+        idAvailable.append(workshopJson[i]['id'])
+    if not(idE in idAvailable):
+        abort(404)
+    return render_template('workshoppage.html', eventTypeLink="/workshops/", event=workshopJson[idE - 1])
 
 @app.route("/register/")
 def register():

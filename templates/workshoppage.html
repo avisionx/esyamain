@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div class="bg-black light pt-3 pt-lg-5 pb-2 text-light" style="margin-top: 76.3px; margin-bottom: -1px">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 pb-2 d-lg-none">
+                    <ol class="breadcrumb p-0 small mb-0 bg-black">
+                        <li class="breadcrumb-item "><a class="text-blue no-decoration" href="/">Home</a></li>
+                        <li class="breadcrumb-item "><a class="text-blue no-decoration" href="{{eventTypeLink}}">Workshops</a></li>
+                        <li class="breadcrumb-item active">{{event.name}}</li>
+                    </ol>
+                </div>
+                <div class="col-12 order-2 order-lg-1 mb-3 mb-lg-5">
+                    <ol class="breadcrumb p-0 small mb-0 d-none d-lg-flex bg-black">
+                        <li class="breadcrumb-item "><a class="text-blue no-decoration" href="/">Home</a></li>
+                        <li class="breadcrumb-item "><a class="text-blue no-decoration" href="{{eventTypeLink}}">Workshops</a></li>
+                        <li class="breadcrumb-item active">{{event.name}}</li>
+                    </ol>
+                    <h4 class="font-weight-bold mb-1 mt-4">{{event.name}}</h4>	
+                    <p class="small text-secondary font-weight-light mt-2 mb-0">Date: {{event.date}} </p>
+                </div>
+                <div class="col-12 col-lg-4 order-1 order-lg-2 mt-3 mt-lg-0">
+                    <img src="/static/img/workshops{{event.img}}" class="w-100 card rounded-0">
+                </div>
+                <div class="col-12 col-lg-8 order-3">
+                    
+                    <h4 class="font-weight-bold mb-1 ">Description</h4>	
+                    <p class="pt-0">{{event.description | safe}}</p>
+
+                
+                    {% if event.regLink != "TBA" %}
+                    <a class="btn btn-outline-blue btn-sm mt-4 px-3 rounded-0 no-btn-shadow light stretch" data-tilt target="_blank" href={{event.regLink}}>Register for Workshop</a>                                        
+                    {% else %}
+                    <a class="btn btn-outline-blue btn-sm mt-4 px-3 rounded-0 no-btn-shadow light stretch disabled" data-tilt href="#" onclick="return false;">Register Open Soon</a>                                                            
+                    {% endif %}
+
+                </div>
+            </div>
+        </div>
+    </div>
+    {% include 'footer.html' %}
+
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript">
+    
+</script>
+{% endblock %}
