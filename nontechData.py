@@ -91,7 +91,7 @@ nontechJson = [{
         'venue': "TBA",
         'prize': "TBA",
         'team': "1-5 Members",
-        'regLink': "bit.ly/FOQS_IIITD",
+        'regLink': "http://bit.ly/FOQS_IIITD",
         'description': "\"Taking an image, freezing a moment, reveals how rich reality truly is.\"<br>Esya returns with its Photography competition FOQS. We invite all photography enthusiasts, who wish to share important stories and influence the way people think through their images.",
         'rules': ["No Photograph should have any watermark or copyright."]
     }, {
