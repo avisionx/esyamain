@@ -15,7 +15,7 @@ workshopJson = [{
     },  {
         'id': 3,
         'name': 'Robotics (ROBOTECH LABS)',
-        'img': '/robotics.png',
+        'img': '/robotics2.png',
         'date': "18th August, 2019",
         'regLink': "https://forms.gle/TdBdmhAK3Zt69dH1A", 
         'description': "Esya, in association with Robotech Labs brings you a workshop on Robotics. Students will learn the basics of robotic engineering by working on live projects. This will help them enter the world of automation through building an actually robot.",
