@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div class="container light py-4 py-lg-5" style="margin-top: 76.4px" >
+        <h1 class="bold text-center text-black mb-3 mb-lg-4"><b>SPONSORS</b></h1>
+        <div class="row mt-5">
+            {% for imgUrl in sponsors %}
+            <div class="col-12 col-md-6 col-lg-4 my-3 d-flex align-items-center justify-content-center">
+                <img src="/static/img/festspons/{{imgUrl}}" class="w-75 img-fluid" alt="{{imgUrl}}">
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    {% include 'footer.html' %}
+
+{% endblock %}
+
+{% block scripts %}
+{% endblock %}

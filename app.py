@@ -5,6 +5,7 @@ from cseData import cseJson
 from eceData import eceJson
 from nontechData import nontechJson
 from workshopData import workshopJson
+from festSponsors import festSponsors
 
 app = Flask(__name__)
 
@@ -99,6 +100,10 @@ def eventDataApi(eventName):
     elif(eventName == "nontech"):
         return jsonify(nontechJson)
     return "404"
+
+@app.route("/sponsors/")
+def sponsors():
+    return render_template('sponsors.html', sponsors=festSponsors)
 
 
 @app.errorhandler(404)
