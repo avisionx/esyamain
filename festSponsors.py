@@ -18,7 +18,7 @@ festSponsors = [
     'gfg.png',
     'gitkraken.png',
     'hellointern.jpg',
-    'ieee.png'
+    'ieee.png',
     'invision.png',
     'jamboree.jpg',
     'linode.png',
