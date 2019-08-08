@@ -9,7 +9,7 @@ festSponsors = [
     'codechef.png',
     'codingninjas.png',
     'creativetim.png',
-    'developercircles.png',
+    'developercircle.jpg',
     'devfolio.png',
     'dishtv.png',
     'edtimes.jpg',
