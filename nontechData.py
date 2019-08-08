@@ -67,7 +67,7 @@ nontechJson = [{
         'venue': "TBA",
         'prize': "TBA",
         'team': "4 Members",
-        'regLink': "https://bit.ly/2JFCmH4",
+        'regLink': "https://docs.google.com/forms/d/1UyAcpjilsQqRGv0nYupmRSjHUY4MOaqOwQUt4F2KGRE/edit?usp=sharing",
         'description': "\"Trust your instincts. They are usually right.\"This is a semi-rapid open individual unrated chess tournament for rated as well as unrated players.<br><br>",
         'rules': ["System of play- The tournament is Swiss format based where every player will play all the rounds(that means no knockout) and the winner will be decided on the basis of total points and tie-breakers.", "The time control of this tournament will be 10+5 which means 10 minutes with 5-sec increment on every move for each player.", "Default Time (Walk Over Time)- The default time will be 15 minutes and if a player doesn’t reach his board within 15 minutes after the start of the round a forfeit will be considered.", "Tie Break- In case of a tie, the latest FIDE Rules shall come into effect. ", "The decision of the Arbiter/Event Coordinators shall be final in case of any discrepancies. Along with the rules mentioned above, all the rules outlined by FIDE for Tournament shall be applicable. Rules and eligibility criteria are subject to change in the spirit of the Fest and the final decision rests with the Arbiter and the organizing team."]
     }, {
@@ -103,7 +103,7 @@ nontechJson = [{
         'venue': "TBA",
         'prize': "TBA",
         'team': "1",
-        'regLink': "https://bit.ly/2Lz6R3P",
+        'regLink': "https://bit.ly/2GKDRC6",
         'description': "Where the fun never ends! Fun Arena organizes the following fun-filled events:<br>○ Air Hockey-A table game in which two players attempt to score points by using a handheld paddle to shoot a plastic disk across a surface with minimal friction into the opponent's goal. <br>○ Food Binge- Who eats the most in a given amount of time. Can be a Golgappa eating competition, or fries eating the competition. But don’t always expect tasty food! <br>○ Pong-Pong - A drinking game in which players throw a ping pong ball across a table with the intent of landing the ball in a cup of bitter juice on the other end so as to force them to drink it. The game typically consists of opposing teams of one or two players per side with 6-10 cups set up in a triangle formation on each side.<br>○ Laser tag - A tag game played with guns which fire infrared beams. Infrared-sensitive targets are commonly worn by each player and are sometimes integrated within the arena in which the game is played.",
         'rules': ["The participant should be registered beforehand (either online or on campus).", "The payment has to be made on the spot (Cash OR PayTM).", "The participant should not touch the table or the puck.", "The participant should avoid throwing the disc out of the table. If this happens three times in a game, the participant can be disqualified.", "The Participant should finish 1 food item before switching to the other one.", "The definition of “finishing a specific food item” would be predefined by us.", "The Participant will stand at a distance of at least 1m from the table.", "The Participant should not extend his hands beyond the table while shooting the ball.", "The participants would get fixed and limited ammo for the round."]
     }, {
@@ -174,7 +174,7 @@ nontechJson = [{
         'venue': "TBA",
         'prize': "TBA",
         'team': "TBA",
-        'regLink': "http://bit.ly/2xXqYQr",        
+        'regLink': "http://bit.ly/2KdqkoM",        
         'description': "Get Ready for WINNER WINNER CHICKEN DINNER!<br>A two day event, with different tournaments on each day. <br>On each day, 3 matches will be held. Map will be Sanhok. Out of those matches, top 8 teams will be selected and these 8 teams will play the final round.",
     	'rules':["1. A team can participate in any number of times in the event.","2. The players can form on the spot teams on the day of the fest.","3. Wifi is provided, but it is up to the participant to use their own mobile data. Use of","emulator is strictly prohibited.","4. Any types of unfair means, will lead to strict disqualification from the event completely."]
     }, {
@@ -186,7 +186,7 @@ nontechJson = [{
         'venue': "TBA",
         'prize': "TBA",
         'team': "TBA",
-        'regLink': "https://bit.ly/2xYJ0ld",      
+        'regLink': "https://bit.ly/2Yj1GLY",      
         'description': "Don't forget to shoot some long range goals or boast your amazing nutmeg skills in FIFA19. Come and challenge skilled players for the ultimate legacy!",
     	'rules':["Settings: Standard settings","Match durance: 10 minutes (5 minutes per half)","Game speed: Normal","Level: Legendary","1.2 All matches should be played by a  ́Friendly Match ́.","1.3 Only tactical defense is allowed.","1.4 It's forbidden to use custom formations, only the standard formations are allowed to use. (So don't use the square button to change the position of players","1.5 All Clubs and International Teams can be used.","1.6 FIFA 19 will be played on PS4.","1.7 A total of 2 minutes per match will be provided to a player to set up his team settings,","substitution and formation.","1.8 Player cannot use his own custom player to play match.","1.9 A player may bring his own controller to play a match ."]
     }, {
