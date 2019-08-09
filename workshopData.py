@@ -3,6 +3,7 @@ workshopJson = [{
         'name': '3D Augmentation Reality (INFIZEAL TECH)',
         'img': '/augmented.png',
         'date': "17th August, 2019",
+        'time': '10am - 5pm',
         'regLink': "https://forms.gle/PrZ29gMNBRJp2JVr7", 
         'description': "Esya'19 and Infizeal brings to you a 3D Augmented Reality workshop. This workshop will provide you with an opportunity to create your own augmented world as well as make 3D avatars.",
     },  {
@@ -10,6 +11,7 @@ workshopJson = [{
         'name': 'Machine Learning and AI (ROBOTECH LABS)',
         'img': '/ml.png',
         'date': "18th August, 2019",
+        'time': '10am - 5pm',
         'regLink': "https://forms.gle/yxzZFabs2EjTDSR1A", 
         'description': "Esya, in association with Robotech Labs brings you a workshop on Machine Learning and AI. Being a very hot domain right now, this workshop will help you kick start our journey towards the deep sciences. Hands on projects will be conducted to help you grasp important concepts like neural nets, data mining and many more.",
     },  {
@@ -17,6 +19,7 @@ workshopJson = [{
         'name': 'Robotics (ROBOTECH LABS)',
         'img': '/robotics2.png',
         'date': "18th August, 2019",
+        'time': '10am - 5pm',
         'regLink': "https://forms.gle/TdBdmhAK3Zt69dH1A", 
         'description': "Esya, in association with Robotech Labs brings you a workshop on Robotics. Students will learn the basics of robotic engineering by working on live projects. This will help them enter the world of automation through building an actually robot.",
     },  {
@@ -24,7 +27,16 @@ workshopJson = [{
         'name': 'Ethical Hacking (INFIZEAL TECH)',
         'img': '/ethical.png',
         'date': "17th August, 2019",
+        'time': '10am - 5pm',
         'regLink': "https://forms.gle/DtYJXNJUg2P3UBVt9", 
         'description': "Esya'19 and Infizeal bring to you an Ethical Hacking workshop. This workshop would revolve around Information Security, Malware Analysis, Reverse Engineering, Wireless Hacking, System Hacking, Cyber Forensics, etc.",
+    },  {
+        'id': 5,
+        'name': 'Open Source Meetup',
+        'img': '/opensource.png',
+        'date': "24th August, 2019",
+        'time': '11am',
+        'regLink': "http://bit.ly/esya19-meetup", 
+        'description': "We are proud to announce that we are organizing an Open Source Meetup in association with Women Who Code, PyLadies, Women Who Go and JSLovers. Open source is a great medium to up your tech skills- code and develop huge projects, among other things, work with an amazing community of developers and building a wider network all across the tech world. The Meetup aims at bringing together a variety of open source communities, and instigate the coder in them by conducting talks on a wide range of subjects. The session will consist of a networking session along with technical talks, promoting open source culture through a panel session followed by QnA. Try not to miss out on the snacks and drinks :)",
     }
 ]
