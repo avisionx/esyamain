@@ -72,17 +72,17 @@ nontechJson = [{
         'rules': ["System of play- The tournament is Swiss format based where every player will play all the rounds(that means no knockout) and the winner will be decided on the basis of total points and tie-breakers.", "The time control of this tournament will be 10+5 which means 10 minutes with 5-sec increment on every move for each player.", "Default Time (Walk Over Time)- The default time will be 15 minutes and if a player doesn’t reach his board within 15 minutes after the start of the round a forfeit will be considered.", "Tie Break- In case of a tie, the latest FIDE Rules shall come into effect. ", "The decision of the Arbiter/Event Coordinators shall be final in case of any discrepancies. Along with the rules mentioned above, all the rules outlined by FIDE for Tournament shall be applicable. Rules and eligibility criteria are subject to change in the spirit of the Fest and the final decision rests with the Arbiter and the organizing team."]
     }, {
         'id': 7,
-        'name': 'Faking the Research',
-        'img': '/nontech/FakingtheResearch.png',
-        'date': "23/08",
-        'time': "10:30 AM",
+        'name': 'Speed Cubing',
+        'img': '/nontech/SpeedCubing.jpg',
+        'date': "24/08",
+        'time': "9:30 AM",
         'venue': "IIIT-Delhi",
-        'prize': "Worth 7K",
-        'team': "2-4 Members",
-        'regLink': "http://bit.ly/fakingtheresearch",
-        'description': "Can you concort tales to support your hypothetical scenarios?<br>Can you find your way out of any situation without raising suspicion? <br>Do you take pride in your ability to spin unbelievable yarns?<br>If your answer to these questions is yes, then this is the event for you!<br>Convince the world of your fake theories and ideas.",
-        'rules': ["We’ll have an online round where participants can send in their fake research. Top 10 teams will be shortlisted, who will get to present their work on the day of the event."]
-    }, {
+        'prize': "Worth 35K",
+        'team': "1 Member",
+        'regLink': "http://bit.ly/SpeedcubingESYA19",
+        'description': "\"Go Fast or Go Home!\"<br>Speedcubing is a Rubik's cube competition, for which many of the speedcubers wait. This event is for all those people who get excited when they see a Rubik’s cube or the ones who think they have some skills and can compete with other cubers.",
+    	'rules':["1. Solving cube before starting stack mat will lead to a penalty.","2. Stopping stack mat before finishing cube will lead to a penalty.","3. Starting cube after completing inspection time will lead to a penalty. Make sure that you","start solving cube before the timer runs out of time.","4. There will be a time limit after the time limit is crossed, the attempt will be stopped and","will be considered DNF (Did not finish).","5. A puzzle is solved when all color parts are reassembled and all parts are aligned within","the limits specified below-"," a. If one face of the cube is misaligned by at most 45 degrees. Else it is considered","equivalent to requiring one more move to solve the cube and in such a case there","will be a penalty of 2 seconds.","b. In any other state in which more than one move is required to solve the cube, the","puzzle is considered unsolved (DNF).","6. The decision of the event head is final.","7. Event head can modify the rules according to the situation, assuring that no biasing","happens."]
+    },  {
         'id': 8,
         'name': 'FOQS',
         'img': '/nontech/FOQS.png',
@@ -108,16 +108,15 @@ nontechJson = [{
         'rules': ["The participant should be registered beforehand (either online or on campus).", "The payment has to be made on the spot (Cash OR PayTM).", "The participant should not touch the table or the puck.", "The participant should avoid throwing the disc out of the table. If this happens three times in a game, the participant can be disqualified.", "The Participant should finish 1 food item before switching to the other one.", "The definition of “finishing a specific food item” would be predefined by us.", "The Participant will stand at a distance of at least 1m from the table.", "The Participant should not extend his hands beyond the table while shooting the ball.", "The participants would get fixed and limited ammo for the round."]
     }, {
         'id': 10,
-        'name': 'Video Editing',
-        'img': '/nontech/VideoEditing.png',
+        'name': 'Rebuttal',
+        'img': '/nontech/Rebuttal.png',
         'date': "24/08",
-        'time': "10:30 AM",
+        'time': "11:00 AM",
         'venue': "IIIT-Delhi",
-        'prize': "Worth 7K",
-        'team': "2-5 Members",
-        'regLink': "bit.ly/videoesya",
-        'description': "This is a Video Editing/ Film making Competition. In this event, participants will be judged on the amalgamation of many skills like script writing, photography, video editing etc. A short film is expected to be made during this event pertaining to the theme provided in the competition.",
-    	'rules': ["1. It can be a film. A documentary. Doesn’t matter.","2. The videos should clearly show your skills in videography, scripting and video editing.","3. It should entirely be relatable to the topic.","4. Should have captions. (Text to speech not preferred)","5. Use of the Internet is allowed.","6. Duration of unoriginal footage (Eg. From Youtube) shouldn’t exceed 60 seconds.","7. We will provide a 10-second video stating that this film was made during Esya 19’.","8. The video should be of 420-480 seconds (excluding the 10-second allotted video) ","   with a relaxation time of 10 seconds.","9. A bibliography must be provided in the end."]
+        'prize': "Worth 6K",
+        'team': "1-2 Members",
+        'regLink': "https://bit.ly/2Ss5Db4",
+        'description': "Rebuttal is the ultimate test of your wit and your grit. It will pit you against some of the best debaters in the country in multiple rounds of high quality debating. Are you ready to engage in such fierce competition?<br><br>"  
     },  {
         'id': 11,
         'name': 'HuntIT',
@@ -134,7 +133,7 @@ nontechJson = [{
         'id': 12,
         'name': 'IPL Auctions',
         'img': '/nontech/ipl.png',
-        'date': "23/08",
+        'date': "24/08",
         'time': "10:30 AM",
         'venue': "IIIT-Delhi",
         'prize': "Worth 12K",
@@ -189,28 +188,5 @@ nontechJson = [{
         'regLink': "https://bit.ly/2Yj1GLY",      
         'description': "Don't forget to shoot some long range goals or boast your amazing nutmeg skills in FIFA19. Come and challenge skilled players for the ultimate legacy!",
     	'rules':["Settings: Standard settings","Match durance: 10 minutes (5 minutes per half)","Game speed: Normal","Level: Legendary","1.2 All matches should be played by a  ́Friendly Match ́.","1.3 Only tactical defense is allowed.","1.4 It's forbidden to use custom formations, only the standard formations are allowed to use. (So don't use the square button to change the position of players","1.5 All Clubs and International Teams can be used.","1.6 FIFA 19 will be played on PS4.","1.7 A total of 2 minutes per match will be provided to a player to set up his team settings,","substitution and formation.","1.8 Player cannot use his own custom player to play match.","1.9 A player may bring his own controller to play a match ."]
-    }, {
-        'id': 16,
-        'name': 'Rebuttal',
-        'img': '/nontech/Rebuttal.png',
-        'date': "24/08",
-        'time': "11:00 AM",
-        'venue': "IIIT-Delhi",
-        'prize': "Worth 6K",
-        'team': "1-2 Members",
-        'regLink': "https://bit.ly/2Ss5Db4",
-        'description': "Rebuttal is the ultimate test of your wit and your grit. It will pit you against some of the best debaters in the country in multiple rounds of high quality debating. Are you ready to engage in such fierce competition?<br><br>"  
-    }, {
-        'id': 17,
-        'name': 'Speed Cubing',
-        'img': '/nontech/SpeedCubing.jpg',
-        'date': "24/08",
-        'time': "9:30 AM",
-        'venue': "IIIT-Delhi",
-        'prize': "Worth 35K",
-        'team': "1 Member",
-        'regLink': "http://bit.ly/SpeedcubingESYA19",
-        'description': "\"Go Fast or Go Home!\"<br>Speedcubing is a Rubik's cube competition, for which many of the speedcubers wait. This event is for all those people who get excited when they see a Rubik’s cube or the ones who think they have some skills and can compete with other cubers.",
-    	'rules':["1. Solving cube before starting stack mat will lead to a penalty.","2. Stopping stack mat before finishing cube will lead to a penalty.","3. Starting cube after completing inspection time will lead to a penalty. Make sure that you","start solving cube before the timer runs out of time.","4. There will be a time limit after the time limit is crossed, the attempt will be stopped and","will be considered DNF (Did not finish).","5. A puzzle is solved when all color parts are reassembled and all parts are aligned within","the limits specified below-"," a. If one face of the cube is misaligned by at most 45 degrees. Else it is considered","equivalent to requiring one more move to solve the cube and in such a case there","will be a penalty of 2 seconds.","b. In any other state in which more than one move is required to solve the cube, the","puzzle is considered unsolved (DNF).","6. The decision of the event head is final.","7. Event head can modify the rules according to the situation, assuring that no biasing","happens."]
     }, 
 ]
