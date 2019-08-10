@@ -68,10 +68,13 @@
             <div style="overflow-x: hidden">
                 <p class="light mt-2 mt-md-4 mb-0 text-right" id="talkText">Broaden the horizons of your perception and venture forth into diverse domains. Attend the theory talks at ESYA and get a head start into your next intellectual endeavour. </p>
             </div>
-            <div class="row mt-4 mt-md-5 mb-4">
-                <div class="offset-lg-3 col-12 col-lg-6 light">
-                    <a><img src="/static/img/comingsoon.png" id="comingsoon1" class="w-100" alt=""></a> 
+            <div class="row mt-4 mt-md-5 mb-4 justify-content-end">
+                <div class="col-6 col-lg-3 light">
+                    <a href="/talk/1"><img src="/static/img/talks/opensource.png" data-tilt data-tilt-scale="1" class="w-100" alt=""></a> 
                 </div>
+                <!-- <div class="col-6 col-lg-3 light">
+                    <a href="/talks/"><img src="/static/img/banner/talkall.png" data-tilt data-tilt-scale="1" class="w-100 mt-4 mt-lg-0" alt=""></a>
+                </div> -->
             </div>
         </div>  
         <div class="container py-0 pb-4 pb-md-5" style="position: relative;">
@@ -192,8 +195,6 @@
                 element2.classList.add('animated', 'fadeIn', 'slow', 'delay');
                 var element2 =  document.querySelector('#talkHeadS');
                 element2.classList.add('animated', 'fadeIn', 'slow', 'delay');
-                var element1 =  document.querySelector('#comingsoon1');
-                element1.classList.add('animated', 'zoomIn', 'faster', 'delay-1s');
             }
             if ($('#workshopText').isInViewport()) {
                 var element1 =  document.querySelector('#workshopText');

@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div class="bg-black light pt-4 pt-lg-5 pb-2 text-light" style="margin-top: 76.3px; margin-bottom: -1px;">
+        <div class="container">
+            <h1 class="bold text-center display-4 animated fadeIn slow mb-3 mb-lg-4"><b>Talks</b></h1>
+            <div class="row mt-4 mt-lg-4">
+
+                {% for talk in talks %}
+                <div class="col-12 col-md-4 my-3 my-md-4">
+                    <a class="card rounded-0 border-0 shadow-sm text-black" href="/talk/{{talk.id}}" style="text-decoration: none; color: black !important">
+                        <img src="/static/img/talks{{talk.img}}" class="card-img-top rounded-0">
+                        <!-- <h5 class="light stretch text-black mb-0 text-uppercase py-2 text-center" style="font-size: 14px">{{talk.name}}</h5> -->
+                    </a>
+                </div>
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+    {% include 'footer.html' %}
+
+{% endblock %}
+
+{% block scripts %}
+<script type="text/javascript">
+
+</script>
+{% endblock %}

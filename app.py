@@ -5,6 +5,7 @@ from cseData import cseJson
 from eceData import eceJson
 from nontechData import nontechJson
 from workshopData import workshopJson
+from talkData import talkJson
 from festSponsors import festSponsors
 
 app = Flask(__name__)
@@ -48,6 +49,20 @@ def workshop(idE):
     if not(idE in idAvailable):
         abort(404)
     return render_template('workshoppage.html', eventTypeLink="/workshops/", event=workshopJson[idE - 1])
+
+@app.route("/talks/")
+def talks():
+    return render_template('talks.html', talks=talkJson)
+
+
+@app.route("/talk/<int:idE>")
+def talk(idE):
+    idAvailable = []
+    for i in range(len(talkJson)):
+        idAvailable.append(talkJson[i]['id'])
+    if not(idE in idAvailable):
+        abort(404)
+    return render_template('talkpage.html', eventTypeLink="/talks/", event=talkJson[idE - 1])
 
 @app.route("/register/")
 def register():
