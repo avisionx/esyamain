@@ -19,11 +19,11 @@
                         <li class="breadcrumb-item active">{{event.name}}</li>
                     </ol>
                     <h4 class="font-weight-bold mb-1 mt-4">{{event.name}}</h4>	
-                    <p class="small text-secondary font-weight-light mt-2 mb-0">Date: {{event.date}} </p>
-                    <p class="small text-secondary font-weight-light mb-0">Time: {{event.time}} </p>
-                    <p class="small text-secondary font-weight-light mb-0">Venue: {{event.venue}}</p>
-                    <p class="small text-secondary font-weight-light mb-0">Prize: {{event.prize}}</p>
-                    <p class="small text-secondary font-weight-light mb-3">Team Size: {{event.team}}</p>
+                    <p class="small text-white font-weight-light mt-2 mb-0">Date: {{event.date}} </p>
+                    <p class="small text-white font-weight-light mb-0">Time: {{event.time}} </p>
+                    <p class="small text-white font-weight-light mb-0">Venue: {{event.venue}}</p>
+                    <p class="small text-white font-weight-light mb-0">Prize: {{event.prize}}</p>
+                    <p class="small text-white font-weight-light mb-3">Team Size: {{event.team}}</p>
                     <hr class="mt-5 w-50 d-none d-md-block bg-secondary" style="opacity: 0.2">
                 </div>
                 <div class="col-12 col-lg-5 order-1 order-lg-2">
@@ -47,9 +47,9 @@
                     {% endif %}
                     
                     {% if event.regLink != "TBA" %}
-                    <a class="btn btn-outline-blue btn-sm mt-4 px-3 rounded-0 no-btn-shadow light stretch" data-tilt target="_blank" href={{event.regLink}}>Register for Event</a>                                        
+                        <a class="btn btn-outline-blue btn-sm mt-4 px-3 rounded-0 no-btn-shadow light stretch" data-tilt target="_blank" href={{event.regLink}}>Register for Event</a>                                        
                     {% else %}
-                    <a class="btn btn-outline-blue btn-sm mt-4 px-3 rounded-0 no-btn-shadow light stretch disabled" data-tilt href="#" onclick="return false;">Register Open Soon</a>                                                            
+                        <a class="btn btn-outline-blue btn-sm mt-4 px-3 rounded-0 no-btn-shadow light stretch disabled" data-tilt href="#" onclick="return false;">Register Open Soon</a>                                                            
                     {% endif %}
                     
                     {% if event.sponsors %}

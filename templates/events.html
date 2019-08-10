@@ -60,7 +60,12 @@
     function populateEventPanel(data, panelId) {
         for(var i = 0; i < data.length; i++) {
             var eventData = data[i];
-            var ele = '<div class="col-12 col-md-4 my-3 my-md-4"><a class="card rounded-0 border-0 shadow-sm text-black" href="/event/' + panelId.split("-")[0] + '/' + eventData.id + '" style="text-decoration: none; color: black !important"><img src="/static/img/events' + eventData.img + '" class="card-img-top rounded-0"><h5 class="light stretch text-black mb-0 text-uppercase py-2 text-center" style="font-size: 14px">' + eventData.name + '</h5></a></div>';
+            if(panelId.split("-")[0] == "hackathons") {
+                var ele = '<div class="col-12 col-md-4 my-3 my-md-4"><a class="card rounded-0 border-0 shadow-sm text-black" target="_blank" href="' + eventData.regLink +'" style="text-decoration: none; color: black !important"><img src="/static/img/events' + eventData.img + '" class="card-img-top rounded-0"><h5 class="light stretch text-black mb-0 text-uppercase py-2 text-center" style="font-size: 14px">' + eventData.name + '</h5></a></div>';
+            }
+            else {
+                var ele = '<div class="col-12 col-md-4 my-3 my-md-4"><a class="card rounded-0 border-0 shadow-sm text-black" href="/event/' + panelId.split("-")[0] + '/' + eventData.id + '" style="text-decoration: none; color: black !important"><img src="/static/img/events' + eventData.img + '" class="card-img-top rounded-0"><h5 class="light stretch text-black mb-0 text-uppercase py-2 text-center" style="font-size: 14px">' + eventData.name + '</h5></a></div>';
+            }
             $("#" + panelId + "-row").append(ele);
         }
     }
