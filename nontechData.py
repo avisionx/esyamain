@@ -81,7 +81,12 @@ nontechJson = [{
         'team': "1 Member",
         'regLink': "http://bit.ly/SpeedcubingESYA19",
         'description': "\"Go Fast or Go Home!\"<br>Speedcubing is a Rubik's cube competition, for which many of the speedcubers wait. This event is for all those people who get excited when they see a Rubik’s cube or the ones who think they have some skills and can compete with other cubers.",
-    	'rules':["1. Solving cube before starting stack mat will lead to a penalty.","2. Stopping stack mat before finishing cube will lead to a penalty.","3. Starting cube after completing inspection time will lead to a penalty. Make sure that you","start solving cube before the timer runs out of time.","4. There will be a time limit after the time limit is crossed, the attempt will be stopped and","will be considered DNF (Did not finish).","5. A puzzle is solved when all color parts are reassembled and all parts are aligned within","the limits specified below-"," a. If one face of the cube is misaligned by at most 45 degrees. Else it is considered","equivalent to requiring one more move to solve the cube and in such a case there","will be a penalty of 2 seconds.","b. In any other state in which more than one move is required to solve the cube, the","puzzle is considered unsolved (DNF).","6. The decision of the event head is final.","7. Event head can modify the rules according to the situation, assuring that no biasing","happens."]
+    	'rules':["1. Solving cube before starting stack mat will lead to a penalty.","2. Stopping stack mat before finishing cube will lead to a penalty.","3. Starting cube after completing inspection time will lead to a penalty. Make sure that you","start solving cube before the timer runs out of time.","4. There will be a time limit after the time limit is crossed, the attempt will be stopped and","will be considered DNF (Did not finish).","5. A puzzle is solved when all color parts are reassembled and all parts are aligned within","the limits specified below-"," a. If one face of the cube is misaligned by at most 45 degrees. Else it is considered","equivalent to requiring one more move to solve the cube and in such a case there","will be a penalty of 2 seconds.","b. In any other state in which more than one move is required to solve the cube, the","puzzle is considered unsolved (DNF).","6. The decision of the event head is final.","7. Event head can modify the rules according to the situation, assuring that no biasing","happens."],
+        'sponsors': [{
+                'img': "cubelelo.jpeg",
+                'link': "https://www.cubelelo.com"
+            }
+        ]
     },  {
         'id': 8,
         'name': 'FOQS',

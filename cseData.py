@@ -45,6 +45,9 @@ cseJson = [{
         'sponsors': [{
                 'img': "sticker-mule.png",
                 'link': "https://www.stickermule.com/supports/darwingames19"
+            },  {
+                'img': "sketch.png",
+                'link': "https://www.sketch.com/"
             }
         ]
     }, {
@@ -123,7 +126,12 @@ cseJson = [{
         'prize': "Worth 10K",
         'team': "1-2 Members",
         'regLink': "http://bit.ly/SegFault_Esya19",
-        'description': "Do you think you have what it takes to be a great coder? You know a language in and out? This time it is not only about getting the logic and algorithms right but also to code it correct knowing the ifs and buts of the programming language.<br><br>So make teams of two and be here to prove your skills. Teams can be cross-school and cross-college. Lone wolves are also allowed. First round will be pen-paper based and you have to opt in either for C++ or Java. Second round will be computer based and in Python3. You will be allowed to interpret the code only twice during the whole round.  No IDE or internet connection will be provided. Minimum time and least number of changes will be the criteria for judging along with the fully functional code. <br><br>Now get ready to start debugging and brag by finding the bugs hiding in the covers of the seemingly well-knit code. "
+        'description': "Do you think you have what it takes to be a great coder? You know a language in and out? This time it is not only about getting the logic and algorithms right but also to code it correct knowing the ifs and buts of the programming language.<br><br>So make teams of two and be here to prove your skills. Teams can be cross-school and cross-college. Lone wolves are also allowed. First round will be pen-paper based and you have to opt in either for C++ or Java. Second round will be computer based and in Python3. You will be allowed to interpret the code only twice during the whole round.  No IDE or internet connection will be provided. Minimum time and least number of changes will be the criteria for judging along with the fully functional code. <br><br>Now get ready to start debugging and brag by finding the bugs hiding in the covers of the seemingly well-knit code. ",
+        'sponsors': [{
+                'img': "madeeasy.png",
+                'link': "https://www.madeeasy.in/"
+            }
+        ]
     }, {
         'id': 12,
         'name': 'SWITCHEROO',
@@ -134,7 +142,18 @@ cseJson = [{
         'prize': "Worth 15K",
         'team': "2 Members",
         'regLink': "https://bit.ly/32t5WXE",
-        'description': "SWITCHEROO is back! After its successful first year, now SWITCHEROO is coming once again in ESYA x19. This time with much more fun and enthusiasm.<br><br>It's not just a regular contest challenging your problem-solving skills. It's SWITCHEROO. It’s a contest testing your abilities to work as a team. The competition not only examines your skills as to how well you coordinate with your partner but also how analytical you are in an isolated and tensed situation."
+        'description': "SWITCHEROO is back! After its successful first year, now SWITCHEROO is coming once again in ESYA x19. This time with much more fun and enthusiasm.<br><br>It's not just a regular contest challenging your problem-solving skills. It's SWITCHEROO. It’s a contest testing your abilities to work as a team. The competition not only examines your skills as to how well you coordinate with your partner but also how analytical you are in an isolated and tensed situation.",
+        'sponsors': [{
+                'img': "bugsee.png",
+                'link': "https://www.bugsee.com/"
+            },  {
+                'img': "deepsource.png",
+                'link': "https://deepsource.io/"
+            },  {
+                'img': "codechef.png",
+                'link': "https://www.codechef.com/"
+            }
+        ]
     }, {
         'id': 13,
         'name': 'Toast To Code',
@@ -156,7 +175,15 @@ cseJson = [{
         'prize': "Worth 20K",
         'team': "1-2 Members",
         'regLink': "http://bit.ly/zptesya19",
-        'description': "The Zero Pre-requisite Tournament is a mathematics problem-solving event where participants have to solve questions based on a topic they have been given on the spot. The main idea behind the ZPT is that the participants need no prior knowledge of the topic at hand - in fact, the less they know, the better, as a fresh mind with no preconceptions makes understanding the material more seamless. Everyone stands as equals."
+        'description': "The Zero Pre-requisite Tournament is a mathematics problem-solving event where participants have to solve questions based on a topic they have been given on the spot. The main idea behind the ZPT is that the participants need no prior knowledge of the topic at hand - in fact, the less they know, the better, as a fresh mind with no preconceptions makes understanding the material more seamless. Everyone stands as equals.",
+        'sponsors': [{
+                'img': "interntheory.png",
+                'link': "https://www.interntheory.com/"
+            },  {
+                'img': "intelligentchange.jpg",
+                'link': "https://www.intelligentchange.com"
+            }
+        ]
     }, {
         'id': 15,
         'name': 'ProSort Women',
@@ -167,7 +194,12 @@ cseJson = [{
         'prize': "Worth 15K",
         'team': "Individual",
         'regLink': "http://bit.ly/ProsortWomen",
-        'description': '"Debugging the gender gap" <br><br> For the first time ESYA brings to you ProSort Women, a 2-hour onsite programming contest specially to encourage women interested in Competitive Programming.<br><br>ProSort Women is the onsite programming contest organised by IIIT-D\'s programming club Foobar for Esya \'19. ProSort Women is an event in which the brightest women across the nation compete against each other to solve algorithmic problems.'
+        'description': '"Debugging the gender gap" <br><br> For the first time ESYA brings to you ProSort Women, a 2-hour onsite programming contest specially to encourage women interested in Competitive Programming.<br><br>ProSort Women is the onsite programming contest organised by IIIT-D\'s programming club Foobar for Esya \'19. ProSort Women is an event in which the brightest women across the nation compete against each other to solve algorithmic problems.',
+        'sponsors': [{
+                'img': "jetbrains.png",
+                'link': "https://www.jetbrains.com/"
+            }
+        ]
     }
 ]
 
