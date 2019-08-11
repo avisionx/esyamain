@@ -3,7 +3,10 @@ festSponsors = [
     'axure.png',
     'balsamiq.png',
     'bitonic.jpg',
-    'bugsee.png',
+    {
+        'img': 'bugsee.png',
+        'link': 'https://www.bugsee.com/'
+    },
     'challengerocket.png',
     'cloudsploit.png',
     'cocacola.png',
@@ -11,7 +14,10 @@ festSponsors = [
     'codingninjas.png',
     'creativetim.png',
     'cubelelo.jpeg',
-    'deepsource.png',
+    {
+        'img': 'deepsource.png',
+        'link': 'http://deepsource.io'
+    },
     'developercircle.jpg',
     'devfolio.png',
     'dishtv.png',
