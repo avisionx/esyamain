@@ -38,10 +38,10 @@ nontechJson = [{
         'id': 4,
         'name': 'The Big Bang',
         'img': '/nontech/BigBang.png',
-        'date': "TBA",
-        'time': "TBA",
-        'venue': "TBA",
-        'prize': "TBA",
+        'date': "24/08",
+        'time': "2:00 PM",
+        'venue': "IIIT-Delhi",
+        'prize': "Worth 18K",
         'team': "1-2 Members",
         'regLink': "http://bit.ly/big_bang_iiitd", 
         'description': "Esya’19 presents you Big Bang, a cosmic quizzing experience. A brainchild of Astronuts, the astronomy club at IIITD, we bring to you an event like none before, where we won't just test your objectivity but your vision and imagination.<br>Get ready for a special experience relative to none other. We aim to not only educate but also entertain. With topics ranging from the observable universe to light years away, we have it all in the bag. It won’t be just plain old questions and answers, but something you won’t even find in a galaxy far far away. It’s time we made quizzing fun again.",
@@ -65,11 +65,11 @@ nontechJson = [{
         'date': "23/08",
         'time': "9:30 AM",
         'venue': "IIIT-Delhi",
-        'prize': "Worth 15K",
+        'prize': "Worth 20K",
         'team': "4 Members",
         'regLink': "https://docs.google.com/forms/d/1UyAcpjilsQqRGv0nYupmRSjHUY4MOaqOwQUt4F2KGRE/edit?usp=sharing",
         'description': "\"Trust your instincts. They are usually right.\"This is a semi-rapid open individual unrated chess tournament for rated as well as unrated players.<br><br>",
-        'rules': ["System of play- The tournament is Swiss format based where every player will play all the rounds(that means no knockout) and the winner will be decided on the basis of total points and tie-breakers.", "The time control of this tournament will be 10+5 which means 10 minutes with 5-sec increment on every move for each player.", "Default Time (Walk Over Time)- The default time will be 15 minutes and if a player doesn’t reach his board within 15 minutes after the start of the round a forfeit will be considered.", "Tie Break- In case of a tie, the latest FIDE Rules shall come into effect. ", "The decision of the Arbiter/Event Coordinators shall be final in case of any discrepancies. Along with the rules mentioned above, all the rules outlined by FIDE for Tournament shall be applicable. Rules and eligibility criteria are subject to change in the spirit of the Fest and the final decision rests with the Arbiter and the organizing team."]
+        'rules': ["System of play- The tournament is Swiss format based where every player will play all the rounds(that means no knockout) and the winner will be decided on the basis of total points and tie-breakers.", "The time control of this tournament will be 15 mins and increment for each move will be decided on the day of the event itself.", "Default Time (Walk Over Time)- The default time will be 15 minutes and if a player doesn’t reach his board within 15 minutes after the start of the round a forfeit will be considered.", "Tie Break- In case of a tie, the latest FIDE Rules shall come into effect. ", "The decision of the Arbiter/Event Coordinators shall be final in case of any discrepancies. Along with the rules mentioned above, all the rules outlined by FIDE for Tournament shall be applicable. Rules and eligibility criteria are subject to change in the spirit of the Fest and the final decision rests with the Arbiter and the organizing team."]
     }, {
         'id': 7,
         'name': 'Speed Cubing',
