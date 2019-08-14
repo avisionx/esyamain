@@ -1,7 +1,7 @@
 talkJson = [{
         'id': 1,
         'name': 'Open Source Meetup',
-        'img': '/opensource.png',
+        'img': '/open.jpg',
         'date': "24th August, 2019",
         'time': '11am',
         'regLink': "http://bit.ly/esya19-meetup", 
