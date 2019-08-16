@@ -121,6 +121,10 @@ def eventDataApi(eventName):
 def sponsors():
     return render_template('sponsors.html', sponsors=festSponsors, mediaSponsors=mediaPartJson)
 
+@app.route("/schedule/")
+def schedule():
+    return render_template('schedule.html')
+
 
 @app.errorhandler(404)
 def page_not_found(e):
