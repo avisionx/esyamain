@@ -14,7 +14,7 @@ eceJson = [{
         'id': 2,
         'name': 'Circuitrix Junior',
         'img': '/ece/circuitrixjr.jpg',
-        'date': "",
+        'date': "21/08(Online Round), 24/08(Final Round)",
         'time': "12:00 PM",
         'venue': "IIIT Delhi",
         'prize': "Worth 15K",
