@@ -7,7 +7,7 @@ from nontechData import nontechJson
 from workshopData import workshopJson
 from talkData import talkJson
 from festSponsors import festSponsors
-from mediaPartData import mediaPartJson
+from partnersData import partnerJson
 
 app = Flask(__name__)
 
@@ -119,7 +119,7 @@ def eventDataApi(eventName):
 
 @app.route("/sponsors/")
 def sponsors():
-    return render_template('sponsors.html', sponsors=festSponsors, mediaSponsors=mediaPartJson)
+    return render_template('sponsors.html', sponsors=festSponsors, partners=partnerJson)
 
 @app.route("/schedule/")
 def schedule():
