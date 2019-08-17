@@ -16,20 +16,22 @@
             {% endif %}
             {% endfor %}
         </div>
-        <h1 class="bold text-center text-black mb-3 mb-lg-4 mt-5"><b>MEDIA PARTNERS</b></h1>
+        {% for categor in partners %}
+        <h1 class="bold text-center text-black mb-3 mb-lg-4 mt-5 text-uppercase"><b>{{categor}}</b></h1>
         <div class="row mt-5">
-            {% for imgUrl in mediaSponsors %}
+            {% for imgUrl in partners[categor] %}
             {% if imgUrl.link != null %}
             <div class="col-12 col-md-6 col-lg-4 my-3 d-flex align-items-center justify-content-center">
-                <a href="{{imgUrl.link}}" target="_blank" class="d-flex align-items-center justify-content-center"><img src="/static/img/mediaspons/{{imgUrl.img}}" class="w-75 img-fluid" alt="{{imgUrl.img}}"></a>
+                <a href="{{imgUrl.link}}" target="_blank" class="d-flex align-items-center justify-content-center"><img src="/static/img/partners/{{imgUrl.img}}" class="w-75 img-fluid" alt="{{imgUrl.img}}"></a>
             </div>
             {% else %}
             <div class="col-12 col-md-6 col-lg-4 my-3 d-flex align-items-center justify-content-center">
-                <img src="/static/img/mediaspons/{{imgUrl}}" class="w-75 img-fluid" alt="{{imgUrl}}">
+                <img src="/static/img/partners/{{imgUrl}}" class="w-75 img-fluid" alt="{{imgUrl}}">
             </div>
             {% endif %}
             {% endfor %}
         </div>
+        {% endfor %}
     </div>
 
     {% include 'footer.html' %}

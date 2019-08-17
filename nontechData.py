@@ -26,12 +26,12 @@ nontechJson = [{
         'id': 3,
         'name': 'Beat Slayer VR',
         'img': '/nontech/beatslayervr.png',
-        'date': "TBA",
-        'time': "TBA",
+        'date': "23/08 - 24/08",
+        'time': "10:00 AM to 6:00 PM",
         'venue': "TBA",
         'prize': "Worth 6K",
         'team': "1 Member",
-        'regLink': "https://bit.ly/2O8AFq7", 
+        'regLink': "https://bit.ly/2YYPWKe", 
         'description': "A Virtual Reality game where everyone competes for supremacy. You dance to the beat and slay down obstacles to thrive. To compete and to come out as a victor is your one and only goal as you battle your diminishing stamina in a challenge against your rivals to set an ultimatum. Go on ahead and be a winner!",
         'rules': ["The rules are very simple, play as long as you don’t die.", "A player gets to play 2 chances, the higher score would be considered.", "All High Scores would be maintained by us and in case of any dispute, the final say will be ours.", "Anyone found tampering with the hardware or damaging it will have to pay a fine or bear the cost of equipment. All Participants will be made aware of this rule especially."]
     }, {
