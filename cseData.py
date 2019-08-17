@@ -35,7 +35,7 @@ cseJson = [{
         'id': 4,
         'name': 'Darwin Games',
         'img': '/cse/darwingames.png',
-        'date': "23/08",
+        'date': "24/08",
         'time': "1:00 PM",
         'venue': "IIIT Delhi",
         'prize': "Worth 6K",
