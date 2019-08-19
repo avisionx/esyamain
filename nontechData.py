@@ -62,7 +62,7 @@ nontechJson = [{
         'id': 6,
         'name': 'Chess',
         'img': '/nontech/chess.png',
-        'date': "23/08",
+        'date': "24/08",
         'time': "9:30 AM",
         'venue': "IIIT-Delhi",
         'prize': "Worth 20K",
