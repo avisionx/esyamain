@@ -8,6 +8,7 @@ festSponsors = [
         'link': 'https://www.bugsee.com/'
     },
     'challengerocket.png',
+    'chem.png',
     'cloudsploit.png',
     'cocacola.png',
     'codechef.png',
