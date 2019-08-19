@@ -8,6 +8,7 @@ from workshopData import workshopJson
 from talkData import talkJson
 from festSponsors import festSponsors
 from partnersData import partnerJson
+from teamData import teamJson
 
 app = Flask(__name__)
 
@@ -124,6 +125,10 @@ def sponsors():
 @app.route("/schedule/")
 def schedule():
     return render_template('schedule.html')
+
+@app.route("/team/")
+def team():
+    return render_template('team.html', team=teamJson)
 
 
 @app.errorhandler(404)
