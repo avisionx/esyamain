@@ -26,7 +26,7 @@ festSponsors = [
     'gitkraken.png',
     'hellointern.jpg',
     'hostgator.png',
-    'codingninjas.png'
+    'codingninjas.png',
     'ieee.png',
     'intelligentchange.jpg',
     'interntheory.png',
