@@ -10,9 +10,6 @@ festSponsors = [
     'challengerocket.png',
     'chem.png',
     'cloudsploit.png',
-    'cocacola.png',
-    'codechef.png',
-    'codingninjas.png',
     'creativetim.png',
     'cubelelo.jpeg',
     {
@@ -25,6 +22,7 @@ festSponsors = [
     'edtimes.jpg',
     'gail.png',
     'gfg.png',
+    'codechef.png',
     'gitkraken.png',
     'hellointern.jpg',
     'hostgator.png',
