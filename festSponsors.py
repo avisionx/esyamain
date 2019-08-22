@@ -36,6 +36,7 @@ festSponsors = [
     'linode.png',
     'madeeasy.png',
     'matic.png',
+    'max.JPG',
     'moz.jpg',
     'nestle.png',
     'pokerbaazi.png',
