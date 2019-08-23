@@ -12,6 +12,7 @@ festSponsors = [
     'cloudsploit.png',
     'creativetim.png',
     'cubelelo.jpeg',
+    'dcb.jpg',
     {
         'img': 'deepsource.png',
         'link': 'http://deepsource.io'

@@ -1,4 +1,7 @@
 partnerJson = {
+    "Entertainment Partner": [
+        'bingo.jpg'
+    ],
     "Media Partners": [
         'Delhi Events.jpg',
         'DU update.JPG',
